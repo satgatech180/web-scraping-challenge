@@ -51,7 +51,7 @@ def scrape():
 	# https://www.jpl.nasa.gov/spaceimages/?search=&category=Mars to be scraped
 	jpl_url = 'https://www.jpl.nasa.gov/spaceimages/?search=&category=Mars'
 	browser.visit(jpl_url)
-	ime.sleep(5)
+	time.sleep(5)
 
 	browser.click_link_by_partial_text("FULL IMAGE")
 	time.sleep(5)
